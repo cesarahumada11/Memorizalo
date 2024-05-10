@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>¡Memorízalo!</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="#" class="logo">¡Memorízalo!</a>
+        <ul class="nav-menu">
+          <li class="nav-menu-item">
+            <span id="movimientos">Movimientos: 0</span>
+          </li>
+          <li class="nav-menu-item">
+            <span id="tiempo">Tiempo: 0</span>
+          </li>
+          <li class="nav-menu-item">
+            <span id="aciertos">Aciertos: 0</span>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="container" id="container">
+        <table class="table">
+          <tr>
+            <td>
+              <button class="button" id="0" onclick="voltear(0)"></button>
+            </td>
+            <td>
+              <button class="button" id="1" onclick="voltear(1)"></button>
+            </td>
+            <td>
+              <button class="button" id="2" onclick="voltear(2)"></button>
+            </td>
+            <td>
+              <button class="button" id="3" onclick="voltear(3)"></button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="button" id="4" onclick="voltear(4)"></button>
+            </td>
+            <td>
+              <button class="button" id="5" onclick="voltear(5)"></button>
+            </td>
+            <td>
+              <button class="button" id="6" onclick="voltear(6)"></button>
+            </td>
+            <td>
+              <button class="button" id="7" onclick="voltear(7)"></button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="button" id="8" onclick="voltear(8)"></button>
+            </td>
+            <td>
+              <button class="button" id="9" onclick="voltear(9)"></button>
+            </td>
+            <td>
+              <button class="button" id="10" onclick="voltear(10)"></button>
+            </td>
+            <td>
+              <button class="button" id="11" onclick="voltear(11)"></button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="button" id="12" onclick="voltear(12)"></button>
+            </td>
+            <td>
+              <button class="button" id="13" onclick="voltear(13)"></button>
+            </td>
+            <td>
+              <button class="button" id="14" onclick="voltear(14)"></button>
+            </td>
+            <td>
+              <button class="button" id="15" onclick="voltear(15)"></button>
+            </td>
+          </tr>
+        </table>
+      </section>
+      <section class="resultado" id="resultado">
+        <h2 class="mensaje" id="mensaje">Ganastes</h2>
+        <button class="btn-jugar" onclick="location.reload()">Volver a jugar</button>
+      </section>
+    </main>
+    <footer class="desarrollador">
+      <p class="desarrollador-texto">
+        Desarrollado por <a href="https://github.com/cesarahumada11" class="desarrollador-nombre">Cesar Ahumada</a>
+      </p>
+    </footer>
+  </body>
+  <script src="main.js"></script>
+</html>
